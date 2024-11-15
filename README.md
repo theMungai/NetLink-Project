@@ -12,11 +12,10 @@ The site is responsive and interactive, ensuring a seamless experience across de
 - Interactive User Interface: Uses dynamic elements and frontend validation to enhance the user experience.
 
 ## Screenshots
-
-[registered-successfully](/screenshots/registered-successfully.png)
-[user-exists](/screenshots/user-exists.png)
-[Login-successfully](/screenshots/Login-successfully.png)
-[Home-page](/screenshots/Home-page.png)
+![registered-successfully](/screenshots/registered-successfully.png)
+![user-exists](/screenshots/user-exists.png)
+![Login-successfully](/screenshots/Login-successfully.png)
+![Home-page](/screenshots/Home-page.png)
 
 
 ## Technologies Used
