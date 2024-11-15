@@ -127,15 +127,42 @@ Users can view and select WiFi plans or WiFi accessories.
 ## File Structure
 
 /netlink
+├── /api
+│   ├── package.json              
+│   ├── package-lock.json         
+│   └── server.js                 
 ├── /frontend
-│   ├── register.html      . Registration form
-│   ├── login.html         . Login form
-│   ├── styles.css         . Frontend styles
-│   └── script.js          . Frontend JavaScript (handles forms, API requests)
-├── /api 
-|-- server.js              . Backend Express.js server (handles registration, login)
-├── package.json           . Node.js dependencies and scripts
-└── README.md              . This file
+│   ├── index.html               
+│   ├── about.html                
+│   ├── customer.html             
+│   ├── register.html             
+│   ├── login.html               
+│   ├── home.html                 
+│   ├── script.js                 
+│   └── styles.css                
+├── /images                       
+│   ├── about-us.jpeg             
+│   ├── android-chrome-192x192.png
+│   ├── business-consultations.jpeg
+│   ├── customer-care.jpeg        
+│   ├── entertainment.png         
+│   ├── faq-image.jpeg            
+│   ├── fibre-optics.png         
+│   ├── gadgets.jpg               
+│   ├── pittsburgh.jpeg           
+│   ├── testimonial4.jpeg         
+│   ├── testimonial1.jpeg         
+│   ├── testimonial3.jpeg        
+│   ├── testimonial5.jpeg         
+│   ├── testimonials-background.jpeg
+│   └── wifi-installation.jpg     
+├── /screenshots                  
+│   ├── home-page.png             
+│   ├── login-successfully.png    
+│   ├── registered-successfully.png
+│   └── user-exists.png           
+├── README.md                     
+├── .gitignore                    
 
 
 
