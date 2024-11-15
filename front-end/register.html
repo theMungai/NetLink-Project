@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/android-chrome-192x192.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>NetLink | Register</title>
+</head>
+<body>
+    <p id="auth-msg"></p>
+<section class="registration-page" id="registration-page">
+    <form id="registration-form">
+        <h1 id="form-heading">Registration</h1>
+        <div id="registration-input">
+            <label for="username" class="input-label">Username:
+                <input type="text" id="username" name="username" placeholder="Username" required class="validate" >
+            </label>
+
+            <label for="email" class="input-label">Email:
+                <input type="email" id="email" name="email" placeholder="Enter Email Address" required class="validate" >
+            </label>
+
+            <label for="password" class="input-label">Password:
+                <input type="password" id="password" name="password" placeholder="Password" required class="validate" autocomplete="off" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}"
+                title="Password must be at least 8 characters long, contain at least one number, one lowercase letter, one uppercase letter, and one special character (@, #, $, %, ^, &, +).">
+                <i class="fas fa-eye toggle-icon" id="show-password"></i><i class="fa-regular fa-eye-slash" id="hide-password"></i>
+            </label>
+        </div>
+        <div class="registration-below">
+            <p><span><input type="checkbox" checked></span>Keep me signed in</p>
+            <p id="registration-terms">
+                <span><input type="checkbox" checked></span>I agree to the 
+                <span id="terms-and-conditions">
+                    <a href="#">Terms and conditions</a>
+                </span>
+            </p>
+            <button type="submit" class="register-to-home">Register</button>
+            
+            <p>Already have an account? <span id="sign-in"><a href="login.html">Sign in</a></span></p>
+        </div>
+    </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
