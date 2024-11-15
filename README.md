@@ -13,10 +13,10 @@ The site is responsive and interactive, ensuring a seamless experience across de
 
 ## Screenshots
 
-[](/screenshots/registered-successfully.png)
-[](/screenshots/user-exists.png)
-[](/screenshots/Login-successfully.png)
-[](/screenshots/Home-page.png)
+[registered-successfully](/screenshots/registered-successfully.png)
+[user-exists](/screenshots/user-exists.png)
+[Login-successfully](/screenshots/Login-successfully.png)
+[Home-page](/screenshots/Home-page.png)
 
 
 ## Technologies Used
